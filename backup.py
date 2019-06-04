@@ -14,7 +14,7 @@ def zipdir(path, zip):
 backupdir = ('test/')
 if backupdir :
     try:
-        zipf = zipfile.ZipFile('/Backup/''Backup'+date_time+'.zip',mode='w')
+        zipf = zipfile.ZipFile('/Backup/Backup'+date_time+'.zip',mode='w')
         zipdir('test/', zipf)
     except Exception as e:
         print e
