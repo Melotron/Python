@@ -8,7 +8,7 @@
 # The crontab that I'am using are: 
 # */5 * * * * sudo /home/pi/rpitemp.py >/dev/null 2>&1
 #
-
+#
 from gpiozero import CPUTemperature
 import requests
 
