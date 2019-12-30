@@ -7,7 +7,7 @@ lux = light.light()
 temp = weather.temperature()
 press = weather.pressure(unit='hPa')
 
-# Switches Domo
+# Device ids on Domoticz
 # Lux: 22
 # Temp: 23
 # Baro: 24
