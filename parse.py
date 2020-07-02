@@ -17,3 +17,10 @@ with open('historical-prices.csv', 'r') as csv_file:
 print(priser)
 
 os.remove('new_prices.csv')
+
+###
+# Time to add payload for domoticz.
+#
+#requests.get('http://192.168.1.101:8080/json.htm?type=command&param=udevice&idx=22', params=priser)
+#
+#
