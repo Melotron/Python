@@ -24,6 +24,6 @@ os.remove('new_prices.csv')
 #requests.get('http://192.168.1.101:8080/json.htm?type=command&param=udevice&idx=22', params=priser)
 #
 #
-# Later add downloader and eremove the file at the end of this script :)
+# Later add downloader and remove the file at the end of this script :)
 #
 #
